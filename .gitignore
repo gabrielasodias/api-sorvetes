@@ -33,3 +33,16 @@ typings/
 
 # Yarn Integrity file
 .yarn-integrity
+
+# Node.js
+node_modules/
+
+# Dependency directories
+pids
+logs
+*.pid
+*.seed
+*.pid.lock
+
+# Environment variables
+.env*
