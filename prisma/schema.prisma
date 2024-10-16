@@ -17,5 +17,5 @@ model Sabores {
   id      String   @id @default(auto()) @map("_id") @db.ObjectId
   tipoSorvete   String
   sabor   String
-  quantidade String
+  quantidade Int
 }
