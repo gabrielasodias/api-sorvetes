@@ -68,5 +68,5 @@ app.delete('/sabores/:id', async (req, res) => {
     res.status(200).json({message: 'Sabor deletado com sucesso'})
 })
 
-app.listen(process.env.PORT || 3000)
+app.listen(3000)
 
